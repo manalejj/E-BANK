@@ -1,6 +1,6 @@
 
 
-# 🏦 eBank - Digital Banking System
+# eBank - Digital Banking System
 
 A full-stack Digital Banking Application built with **Spring Boot 3** and **React**. This application manages bank accounts, customers, and transactions with a secure authentication system and real-time email notifications.
 
