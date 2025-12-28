@@ -1,13 +1,10 @@
-Here is the fully corrected `README.md` file. I have removed all citation tags and ensured a consistent, professional Markdown style throughout.
 
-You can create a file named **`README.md`** in your project root and paste this content directly.
 
-```markdown
 # 🏦 eBank - Digital Banking System
 
 A full-stack Digital Banking Application built with **Spring Boot 3** and **React**. This application manages bank accounts, customers, and transactions with a secure authentication system and real-time email notifications.
 
-> **Project for Architecture of Enterprise Components (ACE)**
+
 
 ## Features
 
@@ -44,7 +41,7 @@ A full-stack Digital Banking Application built with **Spring Boot 3** and **Reac
 * **HTTP Client:** Axios
 * **Styling:** Bootstrap 5 & Custom CSS (Glassmorphism UI)
 
----
+
 
 ## Installation & Setup
 
@@ -64,7 +61,7 @@ CREATE DATABASE ebank_db;
 
 Navigate to `ebank-backend/src/main/resources/application.properties` and configure your credentials:
 
-```properties
+
 # Database Config
 spring.datasource.url=jdbc:mysql://localhost:3306/ebank_db?createDatabaseIfNotExist=true
 spring.datasource.username=YOUR_DB_USER
@@ -74,26 +71,24 @@ spring.datasource.password=YOUR_DB_PASSWORD
 spring.mail.username=YOUR_GMAIL_ADDRESS
 spring.mail.password=YOUR_APP_PASSWORD_16_CHARS
 
-```
 
 ### 4. Run the Backend
 
-```bash
+
 cd ebank-backend
 mvn spring-boot:run
 
-```
+
 
 ### 5. Run the Frontend
 
-```bash
+
 cd ebank-frontend
 npm install
 npm start
 
-```
 
----
+
 
 ## Default Credentials (Simulation)
 
@@ -104,14 +99,6 @@ Since the app uses `InMemoryUserDetailsManager` for demonstration:
 | **Agent (Admin)** | `admin` | `admin` |
 | **Client (Demo)** | `client` | `client` |
 
-> **Note:** When you create a **New Client**, check the email address you provided. The system will send the generated **Login** and **Password** to that email. You can then log in with those credentials.
 
----
 
-## 📝 Author
 
-Developed by **Manal Ejjebli**.
-
-```
-
-```
